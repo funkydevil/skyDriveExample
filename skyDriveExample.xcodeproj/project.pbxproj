@@ -25,6 +25,10 @@
 		BAA825F3199104F100F9DE9F /* SkyDriveChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */; };
 		BAA825F619910A2600F9DE9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F519910A2600F9DE9F /* ViewController.m */; };
 		BACA2EC519924A0F004D46F6 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA2EC419924A0F004D46F6 /* LiveSDK.framework */; };
+		BACA317B19925724004D46F6 /* LiveSDK.framework in Sources */ = {isa = PBXBuildFile; fileRef = BACA2EC419924A0F004D46F6 /* LiveSDK.framework */; };
+		BACA31CA199257C9004D46F6 /* LiveAuthDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACA3196199257C9004D46F6 /* LiveAuthDialog_iPad.xib */; };
+		BACA31CB199257C9004D46F6 /* LiveAuthDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACA3197199257C9004D46F6 /* LiveAuthDialog_iPhone.xib */; };
+		BACA31D3199257C9004D46F6 /* backArrow_black.png in Resources */ = {isa = PBXBuildFile; fileRef = BACA31AB199257C9004D46F6 /* backArrow_black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,9 @@
 		BAA825F419910A2600F9DE9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAA825F519910A2600F9DE9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BACA2EC419924A0F004D46F6 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = skyDriveExample/LiveSDK.framework; sourceTree = "<group>"; };
+		BACA3196199257C9004D46F6 /* LiveAuthDialog_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveAuthDialog_iPad.xib; path = Library/Internal/LiveAuthDialog_iPad.xib; sourceTree = "<group>"; };
+		BACA3197199257C9004D46F6 /* LiveAuthDialog_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveAuthDialog_iPhone.xib; path = Library/Internal/LiveAuthDialog_iPhone.xib; sourceTree = "<group>"; };
+		BACA31AB199257C9004D46F6 /* backArrow_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backArrow_black.png; path = Library/Internal/Resources/backArrow_black.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +152,7 @@
 				5CF6FFFF210E529EEA8A5671 /* Supporting Files */,
 				5CF6F5F72599A8D07FFDCDC0 /* AppDelegate.h */,
 				5CF6F42372582BD7325475E3 /* AppDelegate.m */,
+				BACA317D199257C9004D46F6 /* LiveSDK */,
 				5CF6FC8E8096063BBA7C94EE /* Images.xcassets */,
 				5CF6F5020800A0BCC256C196 /* Main.storyboard */,
 				BAA825F1199104F100F9DE9F /* SkyDriveChooser.h */,
@@ -168,6 +176,16 @@
 				5CF6F99DC715132A589E2EB3 /* skyDriveExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACA317D199257C9004D46F6 /* LiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BACA3196199257C9004D46F6 /* LiveAuthDialog_iPad.xib */,
+				BACA3197199257C9004D46F6 /* LiveAuthDialog_iPhone.xib */,
+				BACA31AB199257C9004D46F6 /* backArrow_black.png */,
+			);
+			path = LiveSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF6F121348CD6E9FCB83BB1 /* UIKit.framework in Resources */,
+				BACA31CA199257C9004D46F6 /* LiveAuthDialog_iPad.xib in Resources */,
 				5CF6FB090855351BC3D96F48 /* InfoPlist.strings in Resources */,
 				5CF6F995133C5AAC9A53A3B0 /* Images.xcassets in Resources */,
+				BACA31CB199257C9004D46F6 /* LiveAuthDialog_iPhone.xib in Resources */,
 				5CF6F8DEFE40307BE2F93A2D /* Main.storyboard in Resources */,
+				BACA31D3199257C9004D46F6 /* backArrow_black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACA317B19925724004D46F6 /* LiveSDK.framework in Sources */,
 				BAA825F619910A2600F9DE9F /* ViewController.m in Sources */,
 				BAA825F3199104F100F9DE9F /* SkyDriveChooser.m in Sources */,
 				5CF6F69C5523569980035C15 /* main.m in Sources */,

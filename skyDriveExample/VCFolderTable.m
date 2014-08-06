@@ -12,10 +12,7 @@
 }
 
 
--(void)dealloc
-{
-    NSLog(@"VCFolderTable dealloc");
-}
+
 
 
 
