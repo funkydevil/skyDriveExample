@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF6F121348CD6E9FCB83BB1 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6F9E4998E885AA3E48C9F /* UIKit.framework */; };
+		5CF6F1B1BA1AD64DFAA83746 /* VCFolderTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6FA66A8CC222D56294E83 /* VCFolderTable.m */; };
+		5CF6F3981BB94A2191F3A73C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F8ECCE16876AD9570D38 /* CoreGraphics.framework */; };
+		5CF6F5472B2FA7D7EC666092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */; };
+		5CF6F631228CE6825C5B156E /* skyDriveExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F5AA1DA52BED898EE862 /* skyDriveExampleTests.m */; };
+		5CF6F69C5523569980035C15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F53005A76CB1B12001C7 /* main.m */; };
+		5CF6F6BA8888526AA544B23E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F9E4998E885AA3E48C9F /* UIKit.framework */; };
+		5CF6F8DEFE40307BE2F93A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6F5020800A0BCC256C196 /* Main.storyboard */; };
+		5CF6F995133C5AAC9A53A3B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6FC8E8096063BBA7C94EE /* Images.xcassets */; };
+		5CF6F99D5C45778AC906E5AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6FAB56BEB8EFB6D25F987 /* InfoPlist.strings */; };
+		5CF6F9D70597D605F6D89F2D /* SkyDriveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F12BBEA03E0006755E74 /* SkyDriveModel.m */; };
+		5CF6FB090855351BC3D96F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6F0FAE84181A5C0A001A4 /* InfoPlist.strings */; };
+		5CF6FBDED3397FC1D9BBE4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6F42372582BD7325475E3 /* AppDelegate.m */; };
+		5CF6FDEAC4B75646B587D8F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F9DE2C913A1ECA02B6C1 /* XCTest.framework */; };
+		5CF6FE24A7F5B5C75046CF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */; };
+		BAA825F3199104F100F9DE9F /* SkyDriveChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */; };
+		BAA825F619910A2600F9DE9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F519910A2600F9DE9F /* ViewController.m */; };
+		BACF7BBC198FD0CF00E2F294 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */; };
+		BACF7BBD198FD6FA00E2F294 /* LiveSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF6FE9B8DABF8776D43027D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF6FD228E2663DF615D62C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF6F90A818438E32E6A37B5;
+			remoteInfo = skyDriveExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF6F07E9CCB02AD55DF87CA /* skyDriveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skyDriveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF6F12BBEA03E0006755E74 /* SkyDriveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyDriveModel.m; sourceTree = "<group>"; };
+		5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CF6F42372582BD7325475E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF6F4791583A2739A791499 /* SkyDriveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDriveModel.h; sourceTree = "<group>"; };
+		5CF6F48806ABDBC8A14E67C6 /* skyDriveExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skyDriveExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF6F53005A76CB1B12001C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF6F5AA1DA52BED898EE862 /* skyDriveExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = skyDriveExampleTests.m; sourceTree = "<group>"; };
+		5CF6F5F72599A8D07FFDCDC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF6F765FC5B45CB96F58F35 /* skyDriveExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "skyDriveExample-Info.plist"; sourceTree = "<group>"; };
+		5CF6F7938345C57A49E11A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CF6F8ECCE16876AD9570D38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CF6F99DC715132A589E2EB3 /* skyDriveExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "skyDriveExample-Prefix.pch"; sourceTree = "<group>"; };
+		5CF6F9DE2C913A1ECA02B6C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CF6F9E4998E885AA3E48C9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CF6FA0CCB71E47F44AF03F9 /* skyDriveExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "skyDriveExampleTests-Info.plist"; sourceTree = "<group>"; };
+		5CF6FA66A8CC222D56294E83 /* VCFolderTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFolderTable.m; sourceTree = "<group>"; };
+		5CF6FAF685A23FDDFA5A761E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CF6FB1813FE5D66A3F387AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF6FC8E8096063BBA7C94EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CF6FDB565B490497FEC5255 /* VCFolderTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFolderTable.h; sourceTree = "<group>"; };
+		BAA825F1199104F100F9DE9F /* SkyDriveChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDriveChooser.h; sourceTree = "<group>"; };
+		BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyDriveChooser.m; sourceTree = "<group>"; };
+		BAA825F419910A2600F9DE9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAA825F519910A2600F9DE9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = "../../Downloads/LiveSDK-for-iOS-master/bin/LiveSDK.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF6F63EA4C8636BD12E98EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACF7BBC198FD0CF00E2F294 /* LiveSDK.framework in Frameworks */,
+				5CF6F5472B2FA7D7EC666092 /* Foundation.framework in Frameworks */,
+				5CF6F3981BB94A2191F3A73C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF6FAABB85ED707E5B4F20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF6FDEAC4B75646B587D8F0 /* XCTest.framework in Frameworks */,
+				5CF6FE24A7F5B5C75046CF68 /* Foundation.framework in Frameworks */,
+				5CF6F6BA8888526AA544B23E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF6F16BBE3DCAF1D9FA381E /* skyDriveExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6F68569E4550AA96D3836 /* Supporting Files */,
+				5CF6F5AA1DA52BED898EE862 /* skyDriveExampleTests.m */,
+			);
+			path = skyDriveExampleTests;
+			sourceTree = "<group>";
+		};
+		5CF6F27C9613A126BF9103FD = {
+			isa = PBXGroup;
+			children = (
+				5CF6F35B5345107370C7C087 /* Products */,
+				5CF6FCD4E83C95406F66D433 /* Frameworks */,
+				5CF6FCDB72130744CFB0A93A /* skyDriveExample */,
+				5CF6F16BBE3DCAF1D9FA381E /* skyDriveExampleTests */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF6F35B5345107370C7C087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6F07E9CCB02AD55DF87CA /* skyDriveExample.app */,
+				5CF6F48806ABDBC8A14E67C6 /* skyDriveExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF6F68569E4550AA96D3836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6FA0CCB71E47F44AF03F9 /* skyDriveExampleTests-Info.plist */,
+				5CF6FAB56BEB8EFB6D25F987 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF6FCD4E83C95406F66D433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */,
+				5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */,
+				5CF6F8ECCE16876AD9570D38 /* CoreGraphics.framework */,
+				5CF6F9E4998E885AA3E48C9F /* UIKit.framework */,
+				5CF6F9DE2C913A1ECA02B6C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF6FCDB72130744CFB0A93A /* skyDriveExample */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6FFFF210E529EEA8A5671 /* Supporting Files */,
+				5CF6F5F72599A8D07FFDCDC0 /* AppDelegate.h */,
+				5CF6F42372582BD7325475E3 /* AppDelegate.m */,
+				5CF6FC8E8096063BBA7C94EE /* Images.xcassets */,
+				5CF6F5020800A0BCC256C196 /* Main.storyboard */,
+				BAA825F1199104F100F9DE9F /* SkyDriveChooser.h */,
+				BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */,
+				5CF6F12BBEA03E0006755E74 /* SkyDriveModel.m */,
+				5CF6F4791583A2739A791499 /* SkyDriveModel.h */,
+				5CF6FDB565B490497FEC5255 /* VCFolderTable.h */,
+				5CF6FA66A8CC222D56294E83 /* VCFolderTable.m */,
+				BAA825F419910A2600F9DE9F /* ViewController.h */,
+				BAA825F519910A2600F9DE9F /* ViewController.m */,
+			);
+			path = skyDriveExample;
+			sourceTree = "<group>";
+		};
+		5CF6FFFF210E529EEA8A5671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6F765FC5B45CB96F58F35 /* skyDriveExample-Info.plist */,
+				5CF6F0FAE84181A5C0A001A4 /* InfoPlist.strings */,
+				5CF6F53005A76CB1B12001C7 /* main.m */,
+				5CF6F99DC715132A589E2EB3 /* skyDriveExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF6F90A818438E32E6A37B5 /* skyDriveExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF6FE1C5E11ED10616E888C /* Build configuration list for PBXNativeTarget "skyDriveExample" */;
+			buildPhases = (
+				5CF6FC1647FEAFF44887C55F /* Sources */,
+				5CF6F63EA4C8636BD12E98EF /* Frameworks */,
+				5CF6F47D3682EC9D97CDC707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skyDriveExample;
+			productName = skyDriveExample;
+			productReference = 5CF6F07E9CCB02AD55DF87CA /* skyDriveExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF6FCEB0062877FE0361EA4 /* skyDriveExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF6FF8AECAF0985972A2654 /* Build configuration list for PBXNativeTarget "skyDriveExampleTests" */;
+			buildPhases = (
+				5CF6FED589D2250B9C058EE7 /* Sources */,
+				5CF6FAABB85ED707E5B4F20E /* Frameworks */,
+				5CF6F82750E3D6E5FF18F29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF6F4A4F851ABED137AC35C /* PBXTargetDependency */,
+			);
+			name = skyDriveExampleTests;
+			productName = skyDriveExampleTests;
+			productReference = 5CF6F48806ABDBC8A14E67C6 /* skyDriveExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF6FD228E2663DF615D62C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					5CF6F90A818438E32E6A37B5 = {
+						DevelopmentTeam = 8VS3YMD6DQ;
+					};
+				};
+			};
+			buildConfigurationList = 5CF6F5603AD07DA668B8D3CD /* Build configuration list for PBXProject "skyDriveExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CF6F27C9613A126BF9103FD;
+			productRefGroup = 5CF6F35B5345107370C7C087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF6F90A818438E32E6A37B5 /* skyDriveExample */,
+				5CF6FCEB0062877FE0361EA4 /* skyDriveExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF6F47D3682EC9D97CDC707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACF7BBD198FD6FA00E2F294 /* LiveSDK.framework in Resources */,
+				5CF6F121348CD6E9FCB83BB1 /* UIKit.framework in Resources */,
+				5CF6FB090855351BC3D96F48 /* InfoPlist.strings in Resources */,
+				5CF6F995133C5AAC9A53A3B0 /* Images.xcassets in Resources */,
+				5CF6F8DEFE40307BE2F93A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF6F82750E3D6E5FF18F29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF6F99D5C45778AC906E5AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF6FC1647FEAFF44887C55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA825F619910A2600F9DE9F /* ViewController.m in Sources */,
+				BAA825F3199104F100F9DE9F /* SkyDriveChooser.m in Sources */,
+				5CF6F69C5523569980035C15 /* main.m in Sources */,
+				5CF6FBDED3397FC1D9BBE4C7 /* AppDelegate.m in Sources */,
+				5CF6F9D70597D605F6D89F2D /* SkyDriveModel.m in Sources */,
+				5CF6F1B1BA1AD64DFAA83746 /* VCFolderTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF6FED589D2250B9C058EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF6F631228CE6825C5B156E /* skyDriveExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF6F4A4F851ABED137AC35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF6F90A818438E32E6A37B5 /* skyDriveExample */;
+			targetProxy = 5CF6FE9B8DABF8776D43027D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF6F0FAE84181A5C0A001A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF6FAF685A23FDDFA5A761E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CF6F5020800A0BCC256C196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF6FB1813FE5D66A3F387AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF6FAB56BEB8EFB6D25F987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF6F7938345C57A49E11A97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF6F1B66D5A9E49B3184EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CF6F2DA8B5DD4943B50C74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF6F73ADA113DE8A581B8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "skyDriveExampleTests/skyDriveExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5CF6FA091004C0035093C198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/develop/Downloads/LiveSDK-for-iOS-master/bin",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "skyDriveExample/skyDriveExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CF6FE6B45AECC1DC1524332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "skyDriveExampleTests/skyDriveExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CF6FF939BB8945081D13AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/develop/Downloads/LiveSDK-for-iOS-master/bin",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
+				INFOPLIST_FILE = "skyDriveExample/skyDriveExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF6F5603AD07DA668B8D3CD /* Build configuration list for PBXProject "skyDriveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF6F1B66D5A9E49B3184EAA /* Debug */,
+				5CF6F2DA8B5DD4943B50C74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF6FE1C5E11ED10616E888C /* Build configuration list for PBXNativeTarget "skyDriveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF6FA091004C0035093C198 /* Debug */,
+				5CF6FF939BB8945081D13AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF6FF8AECAF0985972A2654 /* Build configuration list for PBXNativeTarget "skyDriveExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF6FE6B45AECC1DC1524332 /* Debug */,
+				5CF6F73ADA113DE8A581B8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF6FD228E2663DF615D62C2 /* Project object */;
+}
