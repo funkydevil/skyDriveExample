@@ -24,8 +24,7 @@
 		5CF6FE24A7F5B5C75046CF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */; };
 		BAA825F3199104F100F9DE9F /* SkyDriveChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */; };
 		BAA825F619910A2600F9DE9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA825F519910A2600F9DE9F /* ViewController.m */; };
-		BACF7BBC198FD0CF00E2F294 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */; };
-		BACF7BBD198FD6FA00E2F294 /* LiveSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */; };
+		BACA2EC519924A0F004D46F6 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA2EC419924A0F004D46F6 /* LiveSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,7 @@
 		BAA825F2199104F100F9DE9F /* SkyDriveChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyDriveChooser.m; sourceTree = "<group>"; };
 		BAA825F419910A2600F9DE9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAA825F519910A2600F9DE9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = "../../Downloads/LiveSDK-for-iOS-master/bin/LiveSDK.framework"; sourceTree = "<group>"; };
+		BACA2EC419924A0F004D46F6 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = skyDriveExample/LiveSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACF7BBC198FD0CF00E2F294 /* LiveSDK.framework in Frameworks */,
+				BACA2EC519924A0F004D46F6 /* LiveSDK.framework in Frameworks */,
 				5CF6F5472B2FA7D7EC666092 /* Foundation.framework in Frameworks */,
 				5CF6F3981BB94A2191F3A73C /* CoreGraphics.framework in Frameworks */,
 			);
@@ -131,7 +130,7 @@
 		5CF6FCD4E83C95406F66D433 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BACF7BBB198FD0CF00E2F294 /* LiveSDK.framework */,
+				BACA2EC419924A0F004D46F6 /* LiveSDK.framework */,
 				5CF6F22E4DE61E2985AC2DD0 /* Foundation.framework */,
 				5CF6F8ECCE16876AD9570D38 /* CoreGraphics.framework */,
 				5CF6F9E4998E885AA3E48C9F /* UIKit.framework */,
@@ -245,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACF7BBD198FD6FA00E2F294 /* LiveSDK.framework in Resources */,
 				5CF6F121348CD6E9FCB83BB1 /* UIKit.framework in Resources */,
 				5CF6FB090855351BC3D96F48 /* InfoPlist.strings in Resources */,
 				5CF6F995133C5AAC9A53A3B0 /* Images.xcassets in Resources */,
@@ -417,7 +415,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/develop/Downloads/LiveSDK-for-iOS-master/bin",
+					"$(PROJECT_DIR)/skyDriveExample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
@@ -452,7 +450,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/develop/Downloads/LiveSDK-for-iOS-master/bin",
+					"$(PROJECT_DIR)/skyDriveExample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "skyDriveExample/skyDriveExample-Prefix.pch";
